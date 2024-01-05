@@ -10,8 +10,6 @@ vim.keymap.set("n", "<C-a>", "ggVG")
 
 -- Tabs
 vim.keymap.set("n", "<leader>t", "<cmd>tabedit<cr>", opts)
-vim.keymap.set("n", "<tab>", "<cmd>tabnext<cr>", opts)
-vim.keymap.set("n", "<s-tab>", "<cmd>tabprev<cr>", opts)
 
 -- Split window
 keymap.set("n", "ss", ":split<Return>", opts)

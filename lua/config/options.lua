@@ -8,6 +8,8 @@ vim.opt.mousescroll = "ver:2,hor:4"
 -- Make cmp background transparent
 vim.opt.pumblend = 0
 
+vim.opt.conceallevel = 1
+
 function P(arg)
   print(vim.inspect(arg))
 end

@@ -3,6 +3,3 @@ require("config.lazy")
 
 -- configure NeoVide
 require("config.neovide")
-
--- pepebecker
-require("pepebecker")
