@@ -6,13 +6,16 @@ return {
     opts.incremental_selection.keymaps.node_decremental = "<bs>"
     opts.incremental_selection.keymaps.scope_incremental = "<Enter>"
     vim.list_extend(opts.ensure_installed, {
+      "gitignore",
       "glsl",
+      "json",
       "lua",
       "markdown",
       "markdown_inline",
       "odin",
       "slint",
       "swift",
+      "yaml",
       "zig",
     })
   end,
