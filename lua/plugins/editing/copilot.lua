@@ -50,8 +50,6 @@ return {
       })
     end,
   },
-
-  -- copilot cmp source
   {
     "nvim-cmp",
     dependencies = {
